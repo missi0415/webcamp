@@ -1,0 +1,35 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.mv-jpg{
+  height: 400px;/*画像の高さ*/
+  width: auto;/*横幅指定なし*/
+  background-image: url(img/mv.jpg);/*草の画像*/
+  background-size: cover ; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom;/*画像が下で合わせているので下で合わせてみた*/
+  padding: 20px 20px;/*サービス紹介（中のコメントというコンテンツ）との距離*/
+  margin-bottom: 20px;/*下のＷｅｂＣａｍｐとの距離*/
+}
+
+/*section 上の部分は50－20=30*/
+/*要素を囲んでパディングが上下30pxにすれば全指定できるのでは*/
+
+.webcamp{/*全部に同じ指定をした*/
+  margin: auto;/*これでセンターに寄ってくれる*/
+  width: 840px;/*した棒線を840にするために横幅指定*/
+  padding: 30px 0;/*四角内の縦幅　四角内の横幅　左寄せなので0　*/
+  border-bottom:1px  solid black;/*div要素の下だけ線を引けるように下だけ指定*/
+
+}
+footer{
+  height: 50px;
+}
+
+/*結果的にロゴの指定はいらなかった*/
+/*それぞれの説明文のクラス指定もいらない*/
+/*wc-logo とintoroducution はしようしていない*/

@@ -1,0 +1,26 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxes {
+  width: 600px; /* 横幅いっぱい */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: yellow; /* 背景色red */
+}
+
+.box1{
+  width: 150px;
+  height: 400ox;
+  background-color: orange;
+}
+
+.box2{
+  width: 250px;
+  height: 400px;
+  background-color: red;
+}

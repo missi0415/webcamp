@@ -1,0 +1,72 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.purple{
+  background-color: purple;
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.purple > :first-child{
+  margin-right: auto;
+}
+
+.plum{
+  background-color: plum;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+.flex {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+  width: 300px;
+  height: auto;
+}
+
+.green {
+  background-color: green;
+  width: 700px;
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yellow {
+  background-color: yellow;
+  flex-basis: 200px;
+  margin: 10px;
+  height: 130px;
+}
+
+.blue {
+  background-color: blue;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lightblue {
+  background-color: lightblue;
+  flex-basis: 45%;
+  max-width: 600px;
+  margin: 10px;
+  height:40px ;
+
+}
